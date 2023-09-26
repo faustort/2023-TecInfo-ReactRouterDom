@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import RoutesRoot from "./rotas";
 
 function App() {
