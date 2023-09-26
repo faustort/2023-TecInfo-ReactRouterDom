@@ -9,6 +9,7 @@ export default function RoutesRoot() {
     <BrowserRouter>
       <Routes>
         <Route element={<Body />} path="/">
+          <Route element={<HomeScreen />} path="/" />
           <Route element={<Calculadora />} path="/calculadora" />
           <Route element={<ContatoScreen />} path="/contato" />
         </Route>
