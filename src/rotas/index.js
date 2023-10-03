@@ -3,6 +3,7 @@ import Calculadora from "../components/Calculadora";
 import ContatoScreen from "../screens/ContatoScreen";
 import HomeScreen from "../screens/HomeScreen";
 import Body from "../components/Body";
+import FetchScreen from "../screens/FetchScreen";
 
 export default function RoutesRoot() {
   return (
@@ -10,7 +11,7 @@ export default function RoutesRoot() {
       <Routes>
         <Route element={<Body />} path="/">
           <Route element={<HomeScreen />} path="/" />
-          <Route element={<Calculadora />} path="/calculadora" />
+          <Route element={<FetchScreen />} path="/fetch" />
           <Route element={<ContatoScreen />} path="/contato" />
         </Route>
       </Routes>
