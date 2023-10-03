@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// navbar: https://getbootstrap.com/docs/5.0/components/navbar/
 export default function Cabecalho() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
